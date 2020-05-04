@@ -1,10 +1,12 @@
 body {
   font-family: arial;
-  background-image: src('../assets/background@2x.png');
+  background-image: url(../assets/background@2x.png);
   height: 100%;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
+  height: 100vh;
+  width: 100vw;
 }
 
 /* Sets the background image for the wheel */
@@ -14,6 +16,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   z-index: 1 !important;
+  /* height: 100vh;
+  width: 100vw; */
+  /* background-size: cover; */
 }
 
 /* Do some css reset on selected elements */
