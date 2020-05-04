@@ -1,9 +1,9 @@
 let theWheel = new Winwheel({
   'numSegments': 12,
-  'outerRadius': 200,
-  'textAlignment': 'inner',
-  'textFontSize': 20,
-  'innerRadius': 60,
+  'outerRadius': 310,
+  'textAlignment': 'center',
+  'textFontSize': 32,
+  'innerRadius': 73,
   'lineWidth': 3,
   'segments':
     [

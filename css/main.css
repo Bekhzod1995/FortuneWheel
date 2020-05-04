@@ -14,11 +14,10 @@ body {
 .the_wheel {
   background-image: url(../assets/kol.png);
   background-position: center;
+  width: 100%;
+  background-size: contain;
   background-repeat: no-repeat;
   z-index: 1 !important;
-  /* height: 100vh;
-  width: 100vw; */
-  /* background-size: cover; */
 }
 
 /* Do some css reset on selected elements */
@@ -48,10 +47,8 @@ h1, p {
   color: #17020F;
   opacity: 1;
   font-size: 50;
-  padding-left: 55;
-  padding-right: 55;
-  padding-bottom: 15;
-  padding-top: 15;
+  margin-top: 50;
+  padding: 2rem 6rem;
   font-weight: bold;
 }
 
