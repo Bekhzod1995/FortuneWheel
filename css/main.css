@@ -1,0 +1,58 @@
+body {
+  font-family: arial;
+  background-image: src('../assets/background@2x.png');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Sets the background image for the wheel */
+
+.the_wheel {
+  background-image: url(../assets/kol.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1 !important;
+}
+
+/* Do some css reset on selected elements */
+
+h1, p {
+  margin: 0;
+}
+
+#canvas {
+  z-index: -1 !important;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+#rotateButton {
+  background: #FFDE59 0% 0% no-repeat padding-box;
+  box-shadow: 10px 0px 20px #1E001833;
+  border: 2px solid #872630;
+  border-radius: 60px;
+  opacity: 1;
+  text-align: center;
+  letter-spacing: 3.6px;
+  color: #17020F;
+  opacity: 1;
+  font-size: 50;
+  padding-left: 55;
+  padding-right: 55;
+  padding-bottom: 15;
+  padding-top: 15;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
